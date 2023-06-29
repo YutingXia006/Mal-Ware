@@ -3,10 +3,25 @@ stages:
   - test
   - package
 
-build-musicmanager:
+build-malware:
   stage: build
   image: maven:3.8-openjdk-17
   script:
     - "echo 'Starting Build Stage'"
     - "mvn compile"
+
+package-malware:
+  stage: package
+  image: maven:3.8-openjdk-17
+ 
+  script:
+    - "echo 'Starting Package Stage'"
+    - "mvn package -Dtest='!NoSqlManagerTest,!SqlDbManagerTest, !AudioTrackApiControllerTest'"
+  only:
+    refs:
+      - main
+  artifacts:
+    paths:
+      - target/*.jar
+    expire_in: 2 days
 
