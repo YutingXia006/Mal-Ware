@@ -16,7 +16,7 @@ package-malware:
  
   script:
     - "echo 'Starting Package Stage'"
-    - "mvn package -Dtest='!NoSqlManagerTest,!SqlDbManagerTest, !AudioTrackApiControllerTest'"
+    - "mvn package -DfailIfNoTests=false"
   only:
     refs:
       - main
