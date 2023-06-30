@@ -1,0 +1,141 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+
+## [0.2.7] - 25-60-2023
+
+### Added
+
+- First steps to add drawing functions other than "line"
+- Radio buttons that draw shapes on click
+
+
+## [0.2.6] - 25-06-2023
+
+### Added
+
+- gitignore file
+
+### Changed
+
+- undo/redo and redraw for increased efficiency and functionality
+
+- UI to look more appealing
+
+
+## [0.2.5] - 22-06-2023
+
+### Added 
+
+- undo/redo function 
+
+### Fixed
+
+- Errors regarding undo/redo and Networking 
+
+
+## [0.2.4] - 19-06-2023
+
+### Changed
+
+- Extracted the logic for buttons and
+  client-server-communication out of UiBuilder into
+  new class ActionHandler.java
+
+
+## [0.2.3] - 12-06-2023
+
+### Fixed
+
+- Error regarding client name
+
+
+## [0.2.2] - 12-06-2023
+
+### Fixed
+
+- Color and Line Width are transmitted
+
+
+## [0.2.1] - 12-06-2023
+
+### Fixed
+
+- Drawing process is now visible for all clients.
+
+
+## [0.2.0] - 12-06-2023
+
+### Added
+
+- ability to draw squiggly lines
+
+
+## [0.1.1] - 04-06-2023
+
+### Added
+
+- Image save / Export functionality
+
+
+## [0.1.0] - 08-05-2023
+
+### Added
+
+- live drawing on the canvas (only straight lines)
+
+### Fixed 
+
+- Errors regarding delay on sharing the stroke 
+
+
+## [0.0.5] - 07-05-2023
+
+### Added
+
+- login scene
+
+### Removed
+
+- unused Classes
+
+
+## [0.0.4] - 06-05-2023
+
+### Added
+
+- Actual Network functionality
+
+
+## [0.0.3] - 03-05-2023
+
+### Added
+
+- Classes to lay Networking foundation
+
+
+## [0.0.2] - 19-04-2023
+
+### Added 
+
+- Ability to Change line color
+- Ability to Change line Width
+- Ability to Auto fill shapes with last color
+- Ability to Clear the entire canvas
+
+
+## [0.0.1] - 12-04-2023
+
+### Added
+
+- Update Readme
+- Create IntelliJ project
+- Basic paint functionality
+
+
