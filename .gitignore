@@ -1,1 +1,14 @@
-target/*
+/target/classes/malware/client/malFunctions/ActionHandler.class
+/target/classes/malware/client/ClientApplication.class
+/target/classes/malware/client/ClientNetInterface$1.class
+/target/classes/malware/client/ClientNetInterface$2.class
+/target/classes/malware/client/ClientNetInterface.class
+/target/classes/malware/server/ClientThread$1.class
+/target/classes/malware/server/ClientThread.class
+/target/classes/malware/server/Server$1.class
+/target/classes/malware/server/Server$2.class
+/target/classes/malware/server/Server$3.class
+/target/classes/malware/server/Server.class
+/target/classes/malware/server/ServerApplication$1.class
+/target/classes/malware/server/ServerApplication.class
+/target/classes/malware/client/uiClient/UiBuilder.class
