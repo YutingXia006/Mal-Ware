@@ -6,9 +6,6 @@
     </Appenders>
 
     <Loggers>
-        <Logger name="MaleWare" level="info" >
-            <AppenderRef ref="Logger"/>
-        </Logger>
         <Root level="info">
             <AppenderRef ref="STDOUT"/>
         </Root>
