@@ -9,4 +9,6 @@ module com.example.malware {
     opens malware.server to javafx.fxml;
     exports malware.client;
     opens malware.client to javafx.fxml;
+    exports malware;
+    opens malware to javafx.fxml;
 }
