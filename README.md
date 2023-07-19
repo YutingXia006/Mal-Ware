@@ -1,3 +1,3 @@
 # Readme
 
-The project starts with App.java or Main.java
+The project starts with ClientApplication.java and ServerApplication.java
