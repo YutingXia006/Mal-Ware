@@ -10,6 +10,14 @@ build-malware:
     - "echo 'Starting Build Stage'"
     - "mvn compile"
 
+test-malware:
+  stage: test
+  image: maven:3.8-openjdk-17
+  script:
+    - "echo 'Starting Test Stage'"
+    - "mvn test"
+
+
 package-malware:
   stage: package
   image: maven:3.8.1-openjdk-17
