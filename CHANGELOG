@@ -8,6 +8,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+
+
+## [1.0.0] - 21.07.2023
+
+### Fixed
+
+- Multiple undos one after another now possible
+- Errorhandling concerning clientnames (":" not allowed)
+
+### Changed
+
+- Minor visual changes
+
+
 ## [0.3.0] - 19.07.2023
 
 ### Changed
