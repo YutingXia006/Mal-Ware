@@ -8,7 +8,56 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
-## [0.2.7] - 25-60-2023
+
+
+## [1.0.0] - 21.07.2023
+
+### Fixed
+
+- Multiple undos one after another now possible
+- Errorhandling concerning clientnames (":" not allowed)
+
+### Changed
+
+- Minor visual changes
+
+
+## [0.3.0] - 19.07.2023
+
+### Changed
+
+- server and client can be started from same application
+- Default values for textfields to prevent problems
+
+### Added
+
+- More shapes 
+- Image import that only works for the actual client -> No networking functionality
+
+
+### Removed
+
+- Fill functionality
+- weird icon
+
+
+## [0.2.9] - 16-07-2023
+
+### Fixed 
+
+- a lot of Bugs and problems
+- logger problems and improvements
+
+
+## [0.2.8] - 26-06-2023
+
+### Added 
+
+- More colors to choose from
+- paintlog gets deleted after canvas clear 
+
+
+## [0.2.7] - 25-06-2023
 
 ### Added
 
